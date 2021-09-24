@@ -26,5 +26,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: List
         run: |
-          ls -la >> umgebung.txt
           env > umgebung.txt
+          ls -la >> umgebung.txt
+          ls -la
